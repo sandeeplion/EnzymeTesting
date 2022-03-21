@@ -14,6 +14,8 @@ function Count(){
     return <div>
         <h1>Welcome to testing page</h1>
         <h4 data-test="counter-display">The count is <span data-test="count">{count}</span></h4>
+        <h6>Welcome</h6>
+        <h6>This is basically testing the code from vs code</h6>
         <button data-test="increment-button"  onClick={handleClick} >Click to Increment</button>
 
     </div>
